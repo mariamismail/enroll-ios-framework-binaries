@@ -30,7 +30,6 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '13.0'
   s.platform     = :ios, '13.0'
-
-  #s.vendored_frameworks = '#{s.version}/EnrollFramework.xcframework'
+  s.vendored_frameworks = '#{s.version}/EnrollFramework.xcframework'
 
 end
